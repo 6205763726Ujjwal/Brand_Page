@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: brown;
+}
+.product_page {
+  max-width: 1000px;
+  height: 600px;
+  background-color: white;
+  display: inline-flex;
+  justify-content: flex-start;
+  margin: 20px 25% 0;
+  flex-direction: column;
+}
+.header {
+  width: 1000px;
+  height: 72px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.header .brand_logo img {
+  margin: 15px 33px 14.3px;
+  flex-shrink: 2px;
+  width: 70px;
+  height: 30px;
+  font-weight: "Inter", sans-serif;
+}
+
+.header ul {
+  display: inline-flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 24px;
+  font-weight: "Inter", sans-serif;
+}
+
+.btn {
+  display: inline-flex;
+  padding: 6px 50px;
+  align-items: center;
+}
+button {
+  background-color: #d01c28;
+  color: #fff;
+  font-size: 8px;
+  font-weight: 600;
+  padding: 5px 8px;
+  font-style: normal;
+  font-weight: "Inter", sans-serif;
+}
+.Hero_section {
+  display: inline-flex;
+  margin: 75px 75px 45px 25px;
+}
+.Hero_section .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 36px;
+}
+.Hero_section .content h1 {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 800px;
+  line-height: 50px;
+  line-height: 60px;
+}
+
+.Hero_section .content p {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.content .bttn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: none;
+  outline: none;
+}
+.bttn .diff {
+  padding: 3px 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+.bttn .cat {
+  padding: 3px 8px;
+  background-color: #fff;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  border: 1px solid grey;
+  outline: none;
+}
+
+.content .icons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  /* margin-left: 20px; */
+}
+.content .icons p {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.icon {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.img_section img {
+  width: 530px;
+  height: 478px;
+}
