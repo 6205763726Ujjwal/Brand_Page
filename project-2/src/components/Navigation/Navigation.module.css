@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation ul {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+.navigation ul li {
+  list-style-type: none;
+}
+.navigation img {
+  width: 72px;
+  height: 60px;
+  flex-shrink: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 2px 600px 2px 45px;
+}

@@ -1,0 +1,21 @@
+.header {
+  /* margin: 70px 450px 10px 90px; */
+  max-width: 1000px;
+  margin: 60px auto 0px;
+}
+.header h1 {
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.header p {
+  color: grey;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  color: black;
+  max-width: 80%;
+}

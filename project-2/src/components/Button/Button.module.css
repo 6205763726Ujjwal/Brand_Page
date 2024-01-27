@@ -1,0 +1,32 @@
+/* .container {
+  padding: 10px 18px 10px 80px;
+} */
+
+.btn {
+  border-radius: 10px;
+  padding: 18px 10px;
+  background-color: #000;
+  color: #fff;
+  gap: 8px;
+  min-width: 220px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.outline_btn {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 18px 10px;
+  background-color: #fff;
+  color: #000;
+  gap: 8px;
+  min-width: 220px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  cursor: pointer;
+}
