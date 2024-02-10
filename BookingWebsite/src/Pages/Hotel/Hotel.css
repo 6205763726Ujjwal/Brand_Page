@@ -1,0 +1,108 @@
+.search {
+  margin: 20px 0px 0px 20rem;
+}
+.search .searchWrapper {
+  width: 270px;
+  height: 450px;
+  background-color: #febb02;
+  padding: 10px;
+  border-radius: 10px;
+}
+.search .searchWrapper .searchItem > h1 {
+  font-size: 30px;
+  font-weight: medium;
+  font-style: unset;
+  color: gray;
+}
+
+.search .searchWrapper .searchItem .destination {
+  display: flex;
+  flex-direction: column;
+}
+.search .searchWrapper .searchItem .destination > label {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+.search .searchWrapper .searchItem .destination > input {
+  width: 240px;
+  height: 42px;
+  border: unset;
+  background-color: white;
+  color: transparent;
+  margin-bottom: 5px;
+}
+.search .searchWrapper .searchItem .check > label {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 5px;
+}
+.search .searchWrapper .searchItem .check > p {
+  width: 240px;
+  height: 42px;
+  background-color: white;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.search .searchWrapper .searchItem .optioned {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.search .searchWrapper .searchItem .optioned .price > h6 {
+  font-size: 15px;
+  font-weight: 500;
+  font-style: unset;
+  margin: 8px 0px;
+}
+.search .searchWrapper .searchItem .optioned .price {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.search .searchWrapper .searchItem .optioned .price > p > span {
+  font-size: 14px;
+  color: gray;
+  font-weight: 400;
+  font-style: unset;
+}
+
+.search .searchWrapper .searchItem .box {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.search .searchWrapper .searchItem .box .number {
+  width: 40px;
+  height: 20px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  padding: 5px;
+}
+.search .searchWrapper .searchItem > button {
+  width: 100%;
+  height: 42px;
+  background-color: #0071c2;
+  color: white;
+  font-size: 16px;
+  margin-top: 40px;
+  border: unset;
+  outline: unset;
+}
+.hotelContainer {
+  display: flex;
+  gap: 20px;
+}
+.hotelContainer .repeat {
+  margin-bottom: 5px;
+}

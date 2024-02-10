@@ -1,0 +1,22 @@
+.feature {
+  display: flex;
+  justify-content: center;
+  margin-left: 120px;
+}
+
+.feature .featureItem {
+  padding: 50px 20px;
+  position: realtive;
+}
+
+.feature .featureItem > img {
+  width: 350px;
+  height: 250px;
+  border-radius: 8px;
+}
+.feature .featureItem .featureTitle {
+  position: absolute;
+  bottom: 100px;
+  color: white;
+  margin: 20px 0px 0px 20px;
+}

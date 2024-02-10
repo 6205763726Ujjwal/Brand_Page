@@ -1,0 +1,69 @@
+.heroSection {
+  margin: 15px 0px 10px 20rem;
+}
+.heroSection .heroWrapper .heroItem .heart > h1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: none;
+  margin-bottom: 50px;
+}
+
+.heroSection .heroWrapper .heroItem {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.heroSection .heroWrapper .heroItem .heart .walk {
+  font-size: 16px;
+  font-weight: 300;
+  font-style: unset;
+  color: black;
+  width: 780px;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+
+.heroSection .heroWrapper .heroItem .hearts {
+  width: 290px;
+  height: 260px;
+  background-color: #add8e6;
+  padding: 20px;
+}
+.heroSection .heroWrapper .heroItem .hearts > h5 {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-style: unset;
+}
+
+.heroSection .heroWrapper .heroItem .hearts .real {
+  padding-top: 30px;
+  width: 240px;
+  color: black;
+}
+.heroSection .heroWrapper .heroItem .hearts > h1 {
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: 700;
+  font-style: unset;
+}
+.heroSection .heroWrapper .heroItem .hearts > h1 > span {
+  font-size: 25px;
+  font-weight: 400;
+  font-style: unset;
+}
+
+.heroSection .heroWrapper .heroItem .hearts > button {
+  width: 230px;
+  height: 38px;
+  background-color: #0071c2;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: unset;
+  border: unset;
+  outline: unset;
+  padding: 3px;
+  margin-top: 15px;
+}

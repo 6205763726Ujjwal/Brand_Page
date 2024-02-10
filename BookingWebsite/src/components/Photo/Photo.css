@@ -1,0 +1,14 @@
+.imgPart {
+  margin: 15px 0px 15px 20rem;
+}
+
+.imgPart .imgWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+}
+
+.imgPart .imgWrapper .imgItem > img {
+  width: 360px;
+  height: 280px;
+  padding: 0px 6px;
+}

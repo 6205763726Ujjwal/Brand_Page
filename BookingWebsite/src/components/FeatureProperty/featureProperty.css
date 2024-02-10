@@ -1,0 +1,45 @@
+.fp {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.fp .fpItem {
+  padding: 10px;
+}
+
+.fp .fpItem > img {
+  width: 250px;
+  height: 200px;
+  border-radius: 8px;
+}
+.fp .fpItem .stare > h1 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: unset;
+  margin-bottom: 20px;
+}
+.fp .fpItem .stare > span {
+  padding: 20px 0px;
+  color: gray;
+  font-size: 15px;
+  font-weight: 500;
+}
+.fp .fpItem .stare > p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: unset;
+  color: black;
+}
+
+.fp .fpItem .rate {
+  display: flex;
+  gap: 10px;
+}
+.fp .fpItem .rate > button {
+  background-color: #0071c2;
+  color: white;
+  width: 30px;
+  height: 20px;
+}

@@ -1,0 +1,59 @@
+.list {
+  margin: 20px 2px 10px 2px;
+}
+
+.list .listItemWrapper .listItem .listItems > h1 {
+  font-size: 26px;
+  font-weight: bold;
+  font-style: unset;
+}
+.list .listItemWrapper .listItem {
+  display: flex;
+  justify-content: space-evenly;
+}
+.list .listItemWrapper .listItem > button {
+  width: 170px;
+  height: 38px;
+  background-color: #0071c2;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: unset;
+  border: unset;
+  outline: unset;
+  padding: 3px;
+}
+
+.list .listItemWrapper .listItem .listItems .map {
+  display: flex;
+  gap: 5px;
+  margin-top: 15px;
+  font-style: unset;
+}
+.list .listItemWrapper .listItem .listItems .map .icon {
+  font-size: 15px;
+  color: color;
+  font-weight: 600;
+}
+
+.list .listItemWrapper .listItem .listItems .map > p {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: unset;
+  color: black;
+}
+.list .listItemWrapper .listItem .listItems .location {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0071c2;
+  font-style: none;
+  margin-top: 15px;
+}
+.list .listItemWrapper .listItem .listItems .book {
+  font-size: 18px;
+  font-weight: 600;
+  color: #008009;
+  font-style: none;
+  margin-top: 15px;
+}

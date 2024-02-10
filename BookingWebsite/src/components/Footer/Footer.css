@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+.footer .footerItem {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  padding: 10px 10px;
+  color: gray;
+  font-size: smaller;
+  font-style: unset;
+  font-weight: 400;
+}
+.copyright > p {
+  margin: 60px 0px 0px 300px;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: unset;
+}

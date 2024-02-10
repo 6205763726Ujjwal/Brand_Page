@@ -1,0 +1,12 @@
+.homeContainer .browser > h1 {
+  margin: 5px 0px 30px 20rem;
+  font-size: 25px;
+  font-style: unset;
+  font-weight: bold;
+}
+.homeContainer .guests > h1 {
+  margin: 20px 0px 30px 20rem;
+  font-size: 25px;
+  font-style: unset;
+  font-weight: bold;
+}

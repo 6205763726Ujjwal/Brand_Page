@@ -1,0 +1,26 @@
+.property {
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.property .propertyItem {
+  padding: 0px 10px;
+}
+.property .propertyItem > img {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+}
+.property .propertyItem .propertyTitle > h1 {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.property .propertyItem .propertyTitle > span {
+  font-size: 15px;
+  color: grey;
+  font-style: unset;
+  font-weight: 500;
+}
