@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lifeTimer</title>
+    <link rel="stylesheet" href="index.css" />
+
+    <script
+      src="https://kit.fontawesome.com/fcaa826faf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div id="initialText" class="container">
+        Kindly Enter Your Date Of Birth
+      </div>
+      <div id="afterText" class="container hide">
+        <div class="center">
+          <h1>How Much Life Journey Covered,Till Now</h1>
+          <div class="countDown">
+            <div class="yearCounter">
+              <h3 id="year">0</h3>
+              <p>Year</p>
+            </div>
+            <div class="yearCounter">
+              <h3 id="month">0</h3>
+              <p>Month</p>
+            </div>
+            <div class="yearCounter">
+              <h3 id="day">0</h3>
+              <p>Days</p>
+            </div>
+            <div class="yearCounter">
+              <h3 id="hour">0</h3>
+              <p>Hours</p>
+            </div>
+            <div class="yearCounter">
+              <h3 id="minute">0</h3>
+              <p>Minutes</p>
+            </div>
+            <div class="yearCounter">
+              <h3 id="second">0</h3>
+              <p>Second</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="settingIcon">
+        <i id="settingIcons" class="fa-solid fa-gear"> </i>
+        <div id="icon" class="hide">
+          <input type="date" id="dateSelector" />
+          <button id="btn">Add DOB</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

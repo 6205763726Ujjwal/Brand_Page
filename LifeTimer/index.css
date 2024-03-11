@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  min-height: 100vh;
+  background-image: url("./images/mountain.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xxx-large;
+  color: black;
+  font-weight: bold;
+  position: relative;
+}
+
+#settingIcon {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 15px;
+  color: white;
+  align-items: center;
+  font-size: 32px;
+}
+
+#settingIcon i {
+  padding-top: 10px;
+  font-size: 40px;
+}
+
+#settingIcon #icon input {
+  padding: 0.5rem 1rem;
+}
+
+#settingIcon #icon button {
+  padding: 0.6rem 1rem;
+  background-color: green;
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  font-style: none;
+}
+.hide {
+  display: none;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+.container h1 {
+  white-space: nowrap;
+  font-size: 52px;
+  line-height: 10px;
+  font-weight: bold;
+}
+.container .countDown {
+  display: flex;
+}
+.container .countDown .yearCounter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .countDown .yearCounter h3 {
+  padding-left: 2rem;
+}
+
+.container .countDown .yearCounter p {
+  padding-left: 2rem;
+}
+
+.container .center {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container .center .countDown .yearCounter h3 {
+  color: white;
+}
+
+.mainContainer .hide {
+  display: none;
+}

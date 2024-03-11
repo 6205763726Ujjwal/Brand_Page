@@ -1,0 +1,108 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.obj-width {
+  background-color: gray;
+  width: 100%;
+  height: 42px;
+  box-shadow: 4px 4px 2px rgba(120, 110, 130, 0.2);
+}
+
+.obj-width .container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0rem;
+}
+
+.obj-width .container > a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.obj-width .container .searchContainer > input {
+  border: none;
+  outline: none;
+  color: black;
+  height: 25px;
+  padding: 5px 0.5rem;
+  font-size: 16px;
+}
+.obj-width .container .searchContainer > button {
+  margin-left: 0.5rem;
+  height: 25px;
+  width: 60px;
+  background-color: green;
+  color: white;
+  border: unset;
+  outline: unset;
+}
+
+.blogContainer {
+  margin: 10px;
+  border: 1px solid gray;
+  width: 280px;
+  padding-left: 5px;
+  padding-bottom: 2rem;
+  display: flex;
+  border-radius: 10px;
+}
+.blogContainer .blogCards > p {
+  width: 250px;
+}
+
+.blogContainer .blogCards > img {
+  height: 250px;
+  max-width: 1200px;
+  width: 250px;
+  padding-bottom: 2.5rem;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 15px;
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+@media (max-width: 500px) {
+  .obj-width .container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: green;
+    justify-content: flex-start;
+  }
+  .obj-width .container > a {
+    padding-left: 10px;
+    font-size: 18px;
+  }
+
+  .obj-width .container .searchContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .obj-width .container .searchContainer > input {
+    background-color: green;
+  }
+
+  .obj-width .container .searchContainer > input::placeholder {
+    color: white;
+    font-size: 18px;
+  }
+  .obj-width .container .searchContainer > button {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .blogContainer {
+    margin-top: 4rem;
+  }
+}
