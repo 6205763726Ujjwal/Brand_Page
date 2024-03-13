@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.memeGenerator {
+  text-align: center;
+}
+
+.memeGenerator .btnContainer {
+  margin-top: 2px;
+}
+
+.memeGenerator .btnContainer .memeGeneratorButton {
+  padding: 8px 10px;
+  font-size: 22px;
+  border: none;
+  border-left: 3px solid #222;
+  border-right: 3px solid #222;
+  color: red;
+  background: white;
+  transition: all 400ms ease-in-out;
+  margin: 24px 0px;
+}
+
+.memeGenerator .btnContainer .memeGeneratorButton:hover {
+  padding: 8px 20px;
+  border-left: 8px solid #222;
+  border-right: 8px solid #222;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.memeGenerator .btnContainer .memeTitle {
+  margin-top: 20px;
+}
+
+.memeGenerator img {
+  height: 430px;
+  object-fit: cover;
+}
