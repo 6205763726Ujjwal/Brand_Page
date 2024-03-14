@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  background: #faf9f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 360px;
+  height: 500px;
+  background: #ffffff;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.container form {
+  border: 2px solid #89cff0;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.container form i {
+  padding-left: 5px;
+  font-size: 14px;
+  color: black;
+}
+
+.container form input {
+  padding: 6px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: none;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  outline: none;
+}
+
+.container form input::placeholder {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.container .productList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.container .productList .product {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin: 10px;
+}
+
+.container .productList .product img {
+  width: 60px;
+  height: 42px;
+  border-radius: 5px;
+}
+
+.container .productList .product .productDetails {
+  margin-left: 5px;
+}
+.container .productList .product .productDetails h2 {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: none;
+}
+.container .productList .product .productDetails h3 {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: none;
+}
