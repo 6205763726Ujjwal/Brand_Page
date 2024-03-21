@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100px;
+  height: 42px;
+  margin: 50vh 90vh;
+  background: #555555;
+  color: white;
+  padding: 1rem 0.5rem;
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-style: none;
+  border-radius: 0.2rem;
+}
